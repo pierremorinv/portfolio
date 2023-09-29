@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 .skills {
   display: flex;
+  flex-wrap: nowrap;
   overflow: hidden;
   border-top: 1px solid #dddedb;
   border-bottom: 1px solid #dddedb;
@@ -10,8 +11,6 @@
 }
 .skills .first-skills {
   display: flex;
-  font-size: 32px;
-  flex-wrap: nowrap;
   animation: scroll-animation 12s linear infinite;
   -webkit-animation: scroll-animation 12s linear infinite;
 }
@@ -21,9 +20,9 @@
     -webkit-animation: scroll-animation 10s linear infinite;
   }
 }
-.skills .first-skills span {
-  margin-right: 2%;
-  padding: 1%;
+.skills span {
+  font-size: 30px;
+  padding-right: 3%;
 }
 
 @keyframes scroll-animation {
