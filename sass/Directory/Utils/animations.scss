@@ -1,6 +1,6 @@
 .skills {
   display: flex;
-  text-wrap: nowrap;
+  flex-wrap: nowrap;
   overflow: hidden;
   border-top: 1px solid $secondary-color;
   border-bottom: 1px solid $secondary-color;
