@@ -12,7 +12,13 @@
 .skills .first-skills {
   display: flex;
   animation: scroll-animation 12s linear infinite;
-  -webkit-animation: scroll-animation 15s linear infinite;
+  -webkit-animation: scroll-animation 12s linear infinite;
+}
+@media only screen and (max-width: 1040px) {
+  .skills .first-skills {
+    animation: scroll-animation 15s linear infinite;
+    -webkit-animation: scroll-animation 15s linear infinite;
+  }
 }
 .skills span {
   font-size: 30px;
@@ -23,21 +29,21 @@
   0% {
     -webkit-transform: translateX(200%);
   }
-  25% {
+  5% {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
   }
-  50% {
+  40% {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
   }
-  75% {
+  70% {
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
