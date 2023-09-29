@@ -1,6 +1,5 @@
 .skills {
   display: flex;
-  flex-wrap: nowrap;
   overflow: hidden;
   border-top: 1px solid $secondary-color;
   border-bottom: 1px solid $secondary-color;
@@ -9,31 +8,32 @@
   padding-top: 1%;
 
   .first-skills {
+    display: flex;
+    font-size: 32px;
+    flex-wrap: nowrap;
     animation: scroll-animation 12s linear infinite;
     -webkit-animation: scroll-animation 12s linear infinite;
     @media only screen and (max-width: 1024px) {
       animation: scroll-animation 10s linear infinite;
       -webkit-animation: scroll-animation 10s linear infinite;
     }
+    span {
+      margin-right: 2%;
+      padding: 1%;
+    }
   }
 }
 
 @keyframes scroll-animation {
   0% {
-    -webkit-transform: translateX(120%);
-    @media only screen and (max-width: 1024px) {
-      -webkit-transform: translateX(80%);
-    }
+    -webkit-transform: translateX(200%);
   }
   25% {
-    transform: translateX(60%);
-    -webkit-transform: translateX(60%);
-    -moz-transform: translateX(60%);
-    -ms-transform: translateX(60%);
-    -o-transform: translateX(60%);
-    @media only screen and (max-width: 1024px) {
-      -webkit-transform: translateX(40%);
-    }
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
   }
   50% {
     transform: translateX(0%);
@@ -41,30 +41,21 @@
     -moz-transform: translateX(0%);
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
-    @media only screen and (max-width: 1024px) {
-      -webkit-transform: translateX(0%);
-    }
   }
   75% {
-    transform: translateX(-60%);
-    -webkit-transform: translateX(-60%);
-    -moz-transform: translateX(-60%);
-    -ms-transform: translateX(-60%);
-    -o-transform: translateX(-60%);
-    @media only screen and (max-width: 1024px) {
-      -webkit-transform: translateX(-40%);
-    }
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
   }
 
   100% {
-    transform: translateX(-120%);
-    -webkit-transform: translateX(-120%);
-    -moz-transform: translateX(-120%);
-    -ms-transform: translateX(-120%);
-    -o-transform: translateX(-120%);
-    @media only screen and (max-width: 1024px) {
-      -webkit-transform: translateX(-80%);
-    }
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
   }
 }
 
