@@ -1,0 +1,113 @@
+.first-section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media only screen and (max-width: 1040px) {
+    margin: 2%;
+  }
+
+  .presentation {
+    padding: 1%;
+    border: 1px solid $secondary-color;
+    border-radius: 10px;
+    background-color: $tertiary-color;
+    width: 45%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    @media only screen and (max-width: 1040px) {
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+    h2 {
+      text-decoration: underline;
+    }
+    p {
+      font-size: x-large;
+    }
+    .link-instagram {
+      text-decoration: underline;
+    }
+  }
+  .info {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    border-radius: 10px;
+    background-color: $tertiary-color;
+    border: 1px solid $secondary-color;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    @media only screen and (max-width: 1040px) {
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 0%;
+      margin-top: 7%;
+    }
+  }
+  .info-title {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .info-main {
+    width: 48%;
+    border: 1px solid $secondary-color;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    @media only screen and (max-width: 1040px) {
+      flex-wrap: wrap;
+      width: 100%;
+      border: 0;
+    }
+    ul {
+      padding: 0;
+      font-size: x-large;
+      li {
+        padding-bottom: 10%;
+      }
+    }
+  }
+  .info-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .photo-content {
+    width: 48%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    ul {
+      padding: 0%;
+      text-wrap: wrap;
+      font-size: x-large;
+    }
+    @media only screen and (max-width: 1040px) {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}

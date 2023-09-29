@@ -1,0 +1,28 @@
+@import "./Directory/Base/typography.scss";
+@import "./Directory/Utils/variables.scss";
+@import "./Directory/Utils/mixin.scss";
+@import "./Directory/Utils/animations.scss";
+@import "./Directory/Layout/header.scss";
+@import "./Directory/Layout/footer.scss";
+@import "./Directory/Pages/index.scss";
+@import "./Directory/Pages/cv.scss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: "Quicksand";
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
