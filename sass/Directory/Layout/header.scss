@@ -6,10 +6,12 @@ header {
   background-color: $tertiary-color;
   h1 {
     margin-left: 1%;
+    font-size: 36px;
   }
   ul {
     display: flex;
     li {
+      font-size: 25px;
       padding: 14px;
       list-style-type: none;
       margin-left: 10px;

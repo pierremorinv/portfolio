@@ -1,3 +1,11 @@
 @mixin boxshad {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+@mixin fade-in {
+  animation: fadeIn 1s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
+}
+@mixin card-hover {
+  animation: changeScale 1s linear;
+  -webkit-animation: changeScale 1s ease-in-out;
+}

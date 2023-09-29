@@ -12,13 +12,14 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+
     @media only screen and (max-width: 1040px) {
       flex-wrap: wrap;
       width: 100%;
       margin: 3%;
     }
     h2 {
-      font-size: 36px;
+      font-size: 30px;
       text-decoration: underline;
       text-align: center;
     }
@@ -26,20 +27,25 @@
       @include boxshad;
       background-color: $tertiary-color;
       width: 100%;
+      padding: 2%;
       border: 1px solid $secondary-color;
       border-radius: 15px;
       margin-bottom: 2%;
-      filter: brightness(1, 10);
-      -webkit-filter: brightness(1, 10);
+      @media only screen and (max-width: 1040px) {
+        padding: 0%;
+      }
+
       h3 {
+        margin: 0%;
         font-size: 28px;
         text-decoration: underline;
         text-align: center;
       }
 
       p {
+        margin: 0%;
         text-align: center;
-        font-size: 26px;
+        font-size: 22px;
       }
     }
   }
